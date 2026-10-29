@@ -1,4 +1,4 @@
-# Justin Umali — Financial Advisor (demo)
+# Justin Umali, Financial Advisor (demo)
 
 A design preview of a personal site for Justin Umali. It's a hand-built static site: plain HTML, CSS and JS, with no build step.
 

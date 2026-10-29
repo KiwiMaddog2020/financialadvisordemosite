@@ -1,4 +1,4 @@
-# Justin Umali — Demo Site Plan
+# Justin Umali: Demo Site Plan
 
 ## Decisions from the interview
 | Area | Choice |

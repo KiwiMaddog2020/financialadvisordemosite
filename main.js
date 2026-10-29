@@ -1,4 +1,4 @@
-/* Justin Umali — interactions */
+/* Justin Umali: interactions */
 (() => {
   const $ = (s, el = document) => el.querySelector(s);
   const $$ = (s, el = document) => [...el.querySelectorAll(s)];
@@ -200,7 +200,7 @@
       scrollTrigger: { trigger: '.steps', start: 'top 65%', end: 'bottom 65%', scrub: .5 }
     });
     $$('.step').forEach(step => {
-      gsap.from(step.children[1], { opacity: 0, x: 40, duration: 1.3, ease: 'expo.out', scrollTrigger: { trigger: step, start: 'top 75%' } });
+      gsap.from(step.children[1], { opacity: 0, y: 36, duration: 1.3, ease: 'expo.out', scrollTrigger: { trigger: step, start: 'top 75%' } });
       gsap.from(step.children[0], { scale: .4, opacity: 0, duration: 1, ease: 'back.out(1.6)', scrollTrigger: { trigger: step, start: 'top 75%' } });
     });
 
