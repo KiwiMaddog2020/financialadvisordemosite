@@ -2,7 +2,7 @@
 
 A design preview of a personal site for Justin Umali. It's a hand-built static site: plain HTML, CSS and JS, with no build step.
 
-- **Look:** quiet luxury. Warm ivory, ink and brushed brass. Set in Fraunces (variable optical size, soft and "wonk" axes) with Hanken Grotesk.
+- **Look:** quiet luxury. Warm ivory, ink and brushed brass. Set in Cormorant Garamond with Hanken Grotesk.
 - **Motion:** GSAP + ScrollTrigger with Lenis smooth scrolling, all vendored in `vendor/` so nothing depends on a CDN.
 - **Signature moments:** a cinematic intro and arch-portrait reveal, words that ink in as you read, pinned three-principle chapters, a live compounding planner, a scroll-drawn process timeline, a signed letter, and a three-step booking flow.
 - **Respects** `prefers-reduced-motion` and works without JavaScript.

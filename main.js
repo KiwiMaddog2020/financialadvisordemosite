@@ -109,14 +109,8 @@
 
       .to(chars, { y: 0, duration: 1.5, stagger: .045 }, 2.25);
 
-    // letters settle from hairline to their final weight, keeping each line's own axes
-    $$('.hero__name .line').forEach((line, i) => {
-      const base = getComputedStyle(line).fontVariationSettings;
-      tl.fromTo($$('.char', line),
-        { fontVariationSettings: `${base}, "wght" 100` },
-        { fontVariationSettings: `${base}, "wght" 300`, duration: 2.2, stagger: .045, ease: 'power3.out', clearProps: 'fontVariationSettings' },
-        2.25 + i * .27);
-    });
+    // letters come into focus as they rise
+    tl.fromTo(chars, { filter: 'blur(10px)', opacity: 0 }, { filter: 'blur(0px)', opacity: 1, duration: 1.6, stagger: .045, ease: 'power2.out', clearProps: 'filter' }, 2.25);
 
     tl
 

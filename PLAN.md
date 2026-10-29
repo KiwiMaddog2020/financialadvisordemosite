@@ -4,14 +4,14 @@
 | Area | Choice |
 |---|---|
 | Direction | Quiet luxury: warm ivory `#F5F1EA`, ink `#12161C`, brushed brass accent `#A8864F` |
-| Type | **Fraunces** (variable: `opsz`, `SOFT`, `WONK`) for display · **Hanken Grotesk** for text |
+| Type | **Cormorant Garamond** (variable weight) for display · **Hanken Grotesk** for text. Fraunces was tried first and judged too quirky |
 | Practice | Comprehensive planning: retirement, investments, tax-aware planning, insurance, estate coordination |
 | Identity | "Justin Umali, Financial Advisor" with no city or firm. Placeholder email `hello@justinumali.example` |
-| Build | Hand-written static HTML/CSS/JS. GSAP + ScrollTrigger + Lenis from cdnjs/jsdelivr. GitHub Pages, no build step |
+| Build | Hand-written static HTML/CSS/JS. GSAP + ScrollTrigger + Lenis, vendored in `vendor/`. GitHub Pages, no build step |
 | Compliance | Refined placeholder disclosures plus a clear "demonstration site" note |
 
 ## Signature moments
-1. **Cinematic portrait intro.** A brass hairline draws across an ivory screen, the name sets letter by letter with the Fraunces `SOFT`/`WONK` axes easing, and the portrait opens through a rising arch-shaped clip-path. The photo's white backdrop is blended into the ivory with `mix-blend-mode: multiply`, so it looks shot for the page.
+1. **Cinematic portrait intro.** A brass hairline draws across an ivory screen, the name sets letter by letter, each glyph rising and coming into focus, and the portrait opens through a rising arch-shaped clip-path. The photo's white backdrop is blended into the ivory with `mix-blend-mode: multiply`, so it looks shot for the page.
 2. **Scroll-told philosophy.** A pinned chapter with three principles (Clarity, Discipline, Stewardship). Each one crossfades in turn, with a large roman numeral and a progress rail.
 3. **Live compounding chart.** Sliders for starting amount, monthly contribution, years and assumed return. An SVG path redraws itself with a gradient area underneath, the totals count up, and a "contributions vs growth" split shows. It's hand-built, with no chart library.
 4. **"Your first meeting" timeline.** Conversation, then Blueprint, then Stewardship, joined by a brass line that draws as you scroll.
